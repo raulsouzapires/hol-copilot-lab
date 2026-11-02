@@ -39,6 +39,10 @@
   transform: translateY(-2px);
 }
 
+.app-header nav > button {
+  align-self: center;
+}
+
 .main-content {
   flex: 1;
   display: flex;
@@ -268,7 +272,9 @@
 }
 
 .review-form input,
-.review-form textarea {
+.review-form textarea,
+.contact-form input,
+.contact-form textarea {
   width: 100%;
   padding: 0.5rem;
   margin-bottom: 1rem;
@@ -276,7 +282,9 @@
   border-radius: 4px;
 }
 
-.review-form button {
+.review-form button,
+.contact-form button,
+.contact-thank-you button {
   padding: 0.5rem 1rem;
   background-color: #667eea;
   color: white;
@@ -285,8 +293,18 @@
   cursor: pointer;
 }
 
-.review-form button:hover {
+.review-form button:hover,
+.contact-form button:hover,
+.contact-thank-you button:hover {
     background-color: #5a6fd8;
+}
+
+.contact-form {
+  margin-top: 1rem;
+}
+
+.contact-thank-you button {
+  margin-top: 1rem;
 }
 
 .add-to-cart-btn {
