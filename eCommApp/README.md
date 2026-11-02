@@ -28,6 +28,24 @@ A modern TypeScript-based shopping website built with React and Vite.
 
 4. Open your browser and visit `http://localhost:3000`
 
+
+## Deploy com Docker
+
+O projeto pode ser executado em um container Docker sem instalar Node.js na máquina local. O processo utiliza Node.js para compilar o frontend e Nginx para publicar os arquivos de produção.
+
+### Pré-requisitos
+
+- Docker instalado
+- Docker Compose disponível
+
+### Executar o projeto
+
+Na pasta `eCommApp`, execute:
+
+```bash
+docker compose up --build -d
+
+
 ## 📁 Project Structure
 
 ```
